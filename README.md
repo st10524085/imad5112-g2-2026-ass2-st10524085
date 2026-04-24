@@ -8,6 +8,7 @@ Display answers at the end
 
 Fixes made
 fixed memo display using '"""' for properline breaks
+Played around with layout
 
 Screens
 Screen 1
@@ -24,7 +25,7 @@ Screen3
 Made a video demonstration the app
 App demonstration: https://youtu.be/YTw8mipmANw
 
-github Link:
+github Link:https://github.com/st10524085/imad5112-g2-2026-ass2-st10524085
 
 Refrence List. The Independent Institute of Education(IIE),2026.Introduction to Mobile Application Development [IMAD5112 Module Manual] 2026. [Accessed 20 April 2026]
 
