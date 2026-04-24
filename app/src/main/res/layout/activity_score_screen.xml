@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#142CB3"
+    tools:context=".ScoreScreen">
+
+    <TextView
+        android:id="@+id/lblHeadingScore"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="68dp"
+        android:text="Score Screen!!"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/lblFinalScore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblMemoScore"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="12dp"
+        android:text="Memo List"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnExit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnHomeScreen" />
+
+    <Button
+        android:id="@+id/btnMemo"
+        android:layout_width="124dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="#2196F3"
+        android:text="Memo"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/lblMemoScore"
+        app:layout_constraintEnd_toStartOf="@+id/btnHomeScreen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblFinalScore" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="172dp"
+        android:layout_height="71dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="26dp"
+        android:backgroundTint="#F44336"
+        android:text="Exit"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/lblMemoScore"
+        app:layout_constraintTop_toBottomOf="@+id/lblMemoScore" />
+
+    <Button
+        android:id="@+id/btnHomeScreen"
+        android:layout_width="129dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="305dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="#0B1F94"
+        android:text="Home Screen"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/lblMemoScore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnMemo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblFinalScore"
+        android:layout_width="213dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="74dp"
+        android:text="Final Score!!"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnMemo"
+        app:layout_constraintEnd_toEndOf="@+id/lblMemoScore"
+        app:layout_constraintStart_toStartOf="@+id/btnMemo"
+        app:layout_constraintTop_toBottomOf="@+id/lblHeadingScore" />
+</androidx.constraintlayout.widget.ConstraintLayout>
