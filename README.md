@@ -21,8 +21,16 @@ Screen3
 <img width="292" height="451" alt="Screenshot 2026-04-24 151235" src="https://github.com/user-attachments/assets/28dbd636-685c-4033-a2a7-a33674f9f65a" />
 
 
-Made a video on demonstrating the app
+Made a video demonstration the app
 App demonstration: https://youtu.be/YTw8mipmANw
+
+github Link:
+
+Refrence List. The Independent Institute of Education(IIE),2026.Introduction to Mobile Application Development [IMAD5112 Module Manual] 2026. [Accessed 20 April 2026]
+
+   Schools .,n.d Kotlin Booleans[online]
+   Avaliable at:https://www.w3schools.com/kotlin/kotlin_booleans.php>
+   [Accessed 20 April 2026]
 
 
 
